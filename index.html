@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@800&family=Indie+Flower&family=Josefin+Sans:wght@100;300;400&family=Montserrat:ital,wght@1,100&family=PT+Serif:wght@700&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h2>
+                <i>
+                    <u>
+                        CALCULATOR
+                                        </u>
+                </i>
+            </h2>
+        </div>
+    </header>
+    <div class="container">
+    <div class="calc">
+            <input type="text" id="n1" placeholder="Input1"/><br /><br>
+                        <select id="oparators" ><br>
+                <option value="+">Oparator</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select><br><br>
+            <input type="text" id="n2" placeholder="Input2"/><br /><br><br><br><br><br>
+            <input type="text" id="result" placeholder="Result" /><br> <br>
+            <button onclick="calc();" id="calculate">Calculate</button>
+           <button onclick="clearFields();" id="clear">Clear</button>
+        </div>
+        <div class="grid-container">
+            <div class="box"><p> Welcome to my calculator <br>
+                intruction to be followed<br>
+                1. Enter first number in input1. <br>  
+                2. Enter oparator(+,-,/,*) in oparator field.<br>
+                3. Enter second number in input2 <br>
+                4. Click on calculate button to see the result <br>
+                5. Click on clear to clear the inputs <br>
+            </p></div>
+            <div>
+            </div>
+</body>
+
+</html>
